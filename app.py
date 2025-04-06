@@ -1,9 +1,13 @@
 from flask import Flask, render_template, request
 import requests
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 app = Flask(__name__)
+API_KEY = os.getenv("API_KEY")
 
-API_KEY = "1eaa4b974ab48c725af29bfbf6abbe35"  # Replace with your actual API key
+ # Replace with your actual API key
 
 @app.route("/", methods=["GET", "POST"])
 def index():

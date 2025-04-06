@@ -20,7 +20,7 @@ Thumbs.db
 
 # Environment variables
 .env
-*.env
+.venv/
 
 # Pytest
 .cache/
