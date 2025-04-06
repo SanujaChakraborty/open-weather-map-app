@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# VSCode
+.vscode/
+
+# macOS + Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy, Pylint, coverage
+.mypy_cache/
+.pytype/
+coverage/
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.pid.lock
+.docker/
+.dockerignore
+
+# Anaconda
+.conda/
+.anaconda/
+*.condarc
+*.conda
+
+# Gradle & build artifacts (if somehow generated)
+.gradle/
+build/
+out/
+
+# Node / frontend (if any)
+node_modules/
+npm-debug.log*
+
+# Others
+*.sqlite3
+*.db
+*.bak
+*.swp
