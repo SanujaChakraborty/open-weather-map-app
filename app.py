@@ -5,9 +5,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+load_dotenv()
 app = Flask(__name__)
+API_KEY = os.getenv("API_KEY")
+
 
 API_KEY = os.getenv("API_KEY")
+
+
+ # Replace with your actual API key
 
 
 @app.route("/", methods=["GET", "POST"])
